@@ -8,11 +8,6 @@ if (workbox) {
   console.log(`Workbox gagal dimuat`);
 }
 
-let urlsToCache = [
-  "https://fonts.googleapis.com/icon?family=Material+Icons",
-  "https://fonts.gstatic.com/s/materialicons/v67/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2",
-];
-
 workbox.precaching.precacheAndRoute([
   { url: "/", revision: "2" },
   { url: "/css/style.css", revision: "2" },
