@@ -1,0 +1,29 @@
+{
+  "name": "UEFA News",
+  "short_name": "UEFA News",
+  "description": "Aplikasi berita seputar UEFA Champion League",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#021e64",
+  "theme_color": "#021e64",
+  "icons": [
+    {
+      "src": "/assets/icon_512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon_192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon_144.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any"
+    }
+  ]
+}

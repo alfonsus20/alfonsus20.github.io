@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#021e64" />
+    <title>UEFA News</title>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="./css/materialize.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./assets/logo.png" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo" id="logo-container"
+          ><img
+            src="./assets/logo_white.png"
+            alt=""
+            onError="this.onerror=null;this.src='./assets/question_mark.jpg';"
+        /></a>
+        <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+        <ul class="topnav right hide-on-med-and-down"></ul>
+        <ul class="sidenav" id="nav-mobile"></ul>
+      </div>
+    </nav>
+
+    <div id="content"></div>
+
+    <script src="./js/materialize.min.js"></script>
+    <script src="./js/idb.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/db.js"></script>
+    <script src="./js/api.js"></script>
+    <script src="./js/registerSW.js"></script>
+  </body>
+</html>
